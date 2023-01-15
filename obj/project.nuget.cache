@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m/8lLbzJ/F8jgMgq07zBRddLjJpHeNGD81v2bc6cKt+AfwwKh+nuOkSCqnMbzyb6xFQr15lqlzKXtNHdJMfpTg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\namit\\Desktop\\ScreenHandlerV1\\ScreenHandlerV1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\namit\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\namit\\.nuget\\packages\\newtonsoft.json.schema\\3.0.14\\newtonsoft.json.schema.3.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

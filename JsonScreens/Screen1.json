@@ -1,0 +1,74 @@
+[
+	{
+		"ID": "StartScreen",
+		"EntryPoint": true,
+		"Title": "Bienvenido!",
+		"Message": "Como estan todos! (E) para continuar!",
+		"Fields": null,
+		"Actions": [
+			{
+				"Name": "Seguir",
+				"Option": "e",
+				"Handler": "NextScreen",
+				"NextScreen": "FollowUpScreen"
+			}
+		]
+	},
+	{
+		"ID": "FollowUpScreen",
+		"EntryPoint": false,
+		"Title": "Follow Up!",
+		"Message": "Se puede navegar! (F) para salir, (A) para ver Pantalla Ganadora, (B) para ver Pantalla Perdedora!",
+		"Fields": null,
+		"Actions": [
+			{
+				"Name": "Salir",
+				"Option": "f",
+				"Handler": "Exit",
+				"NextScreen": null
+			},
+			{
+				"Name": "Ganadora",
+				"Option": "A",
+				"Handler": "NextScreen",
+				"NextScreen": "WinnerScreen"
+			},
+			{
+				"Name": "Perdedora",
+				"Option": "B",
+				"Handler": "NextScreen",
+				"NextScreen": "LooserScreen"
+			}
+		]
+	},
+	{
+		"ID": "WinnerScreen",
+		"EntryPoint": false,
+		"Title": "VICTORIA!",
+		"Message": "Has ganado! (F) para salir!",
+		"Fields": null,
+		"Actions": [
+			{
+				"Name": "Salir",
+				"Option": "f",
+				"Handler": "Exit",
+				"NextScreen": null
+			}
+		]
+	},
+	{
+		"ID": "LooserScreen",
+		"EntryPoint": false,
+		"Title": "Derrota",
+		"Message": "Has perdido.... (F) para salir :C",
+		"Fields": null,
+		"Actions": [
+			{
+				"Name": "Salir",
+				"Option": "f",
+				"Handler": "Exit",
+				"NextScreen": null
+			}
+		]
+	}
+]
